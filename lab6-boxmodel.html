@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Box Model Lab</title>
+<style>
+/* Add your CSS here */
+
+.box {width: 700px;
+    height:  80px;
+    padding: 20px;
+      box-sizing: border-box;
+      margin: 20px;
+      border: 5px solid blue;
+      background: gray;    }
+    /*  the width of the box with border-box is 700 - 2(20) - 5(2) = 650px   */
+
+    /*  the height of the box with border-box is 80 -2(20) - 5(2) = 30px   */
+    /* These dimensions are the border content of the box  */
+</style>
+</head>
+<body>
+<h1>CSS Box Model Lab</h1>
+<div class="box">
+<p>This is a demonstration of the CSS Box Model.</p>
+</div>
+</body>
+</html>
